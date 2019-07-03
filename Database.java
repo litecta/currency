@@ -4,8 +4,8 @@ import java.sql.PreparedStatement;
 import java.sql.SQLException;
 
 public abstract class Database { //   --------- pagrindine klase ------------
-    protected static Connection dbConnection = null; // prisijungimas prie duombazes
-    protected static PreparedStatement dbPrepareStatement = null; // uzklausu siuntimui
+    protected static Connection dbConnection = null; // 
+    protected static PreparedStatement dbPrepareStatement = null; // 
 
     private static String dbUser = "root";
     private static String dbPassword = "";
